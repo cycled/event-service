@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 @SpringBootApplication
 @RestController
-@RefreshScope // important!
+@RefreshScope
 public class EventServiceApplication {
 
     @Value("${database.url}")
