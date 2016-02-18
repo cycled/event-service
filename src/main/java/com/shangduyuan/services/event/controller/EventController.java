@@ -1,4 +1,4 @@
-package com.shangduyuan.services.event.service;
+package com.shangduyuan.services.event.controller;
 
 import com.shangduyuan.services.event.model.Event;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class EventService {
+public class EventController {
 
     /**
      * Sample usage: curl $HOST:$PORT/events/1
